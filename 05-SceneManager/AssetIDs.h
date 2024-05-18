@@ -7,7 +7,7 @@
 #define ID_TEX_MARIO 0
 #define ID_TEX_ENEMY 10
 #define ID_TEX_MISC 20
-
+#define ID_TEX_MISC2 30
 
 #define OBJECT_TYPE_MARIO	0
 #define OBJECT_TYPE_BRICK	1
@@ -16,10 +16,18 @@
 #define OBJECT_TYPE_COIN 4
 #define OBJECT_TYPE_PLATFORM 5
 
+#define OBJECT_TYPE_TREE 6
+
+
+
 #define OBJECT_TYPE_PORTAL	50
 
 
 #pragma region MARIO 
+
+#define ID_SPRITE_TREE 100
+
+
 
 #define ID_SPRITE_MARIO 10000
 #define ID_SPRITE_MARIO_BIG (ID_SPRITE_MARIO + 1000)

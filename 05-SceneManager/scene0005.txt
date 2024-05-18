@@ -4,6 +4,8 @@ mario.txt
 coin.txt
 cloud.txt
 brick.txt
+tree.txt
+
 #
 [OBJECTS]
 # type	x	y	extra_settings per object type
@@ -37,9 +39,12 @@ brick.txt
 
 
 #Platform
-5 	100	180	16	15	32	51000	52000	53000
+5	100	180	16	15	32	51000	52000	53000
 5	140	140	16	15	26	51000	52000	53000
 
 #Portal 
 50	200	160	216	180	1
+
+#Tree
+6	100	120
 

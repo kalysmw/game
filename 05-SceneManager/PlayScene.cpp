@@ -9,7 +9,7 @@
 #include "Portal.h"
 #include "Coin.h"
 #include "Platform.h"
-
+#include "Tree.h"
 #include "SampleKeyEventHandler.h"
 
 using namespace std;
@@ -89,7 +89,7 @@ void CPlayScene::_ParseSection_ANIMATIONS(string line)
 
 /*
 	Parse a line in section [OBJECTS] 
-*/
+	*/
 void CPlayScene::_ParseSection_OBJECTS(string line)
 {
 	vector<string> tokens = split(line);
@@ -105,6 +105,11 @@ void CPlayScene::_ParseSection_OBJECTS(string line)
 
 	switch (object_type)
 	{
+	case OBJECT_TYPE_TREE: 
+		obj = new CTree(x, y); 
+		break;
+
+
 	case OBJECT_TYPE_MARIO:
 		if (player!=NULL) 
 		{
