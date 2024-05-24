@@ -78,6 +78,18 @@
     <ClCompile Include="Tree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Brush.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Orange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Blue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation.h">
@@ -152,6 +164,18 @@
     <ClInclude Include="Tree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Brush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Orange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Blue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="brick.txt" />
@@ -164,5 +188,15 @@
     <Text Include="scene02.txt" />
     <Text Include="scene0005.txt" />
     <Text Include="tree.txt" />
+    <Text Include="brush.txt" />
+    <Text Include="orange.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="cloud2.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="blue.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

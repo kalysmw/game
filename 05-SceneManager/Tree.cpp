@@ -5,7 +5,7 @@ void CTree::Render()
 {
 	CSprites* s = CSprites::GetInstance();
 	s->Get(ID_SPRITE_TREE)->Draw(x, y);
-	RenderBoundingBox();
+	//RenderBoundingBox();
 }
 
 void CTree::GetBoundingBox(float& l, float& t, float& r, float& b)

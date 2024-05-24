@@ -10,6 +10,10 @@
 #include "Coin.h"
 #include "Platform.h"
 #include "Tree.h"
+#include "Brush.h"
+#include "Orange.h"
+#include "Blue.h"
+#include "Cloud2.h"
 #include "SampleKeyEventHandler.h"
 
 using namespace std;
@@ -109,6 +113,21 @@ void CPlayScene::_ParseSection_OBJECTS(string line)
 		obj = new CTree(x, y); 
 		break;
 
+	case OBJECT_TYPE_BRUSH:
+		obj = new CBrush(x, y);
+		break;
+
+	case OBJECT_TYPE_ORANGE:
+		obj = new COrange(x, y);
+		break;
+
+	case OBJECT_TYPE_CLOUD2:
+		obj = new CCloud2(x, y, (int)atof(tokens[3].c_str()));
+		break;
+
+	case OBJECT_TYPE_BLUE:
+		obj = new CBlue(x, y);
+		break;
 
 	case OBJECT_TYPE_MARIO:
 		if (player!=NULL) 
