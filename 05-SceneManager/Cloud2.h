@@ -10,7 +10,7 @@
 
 #define CLOUD2_ALONE_WIDTH 31
 #define CLOUD2_ALONE_BBOX_WIDTH 31
-#define CLOUD2_ALONE_BBOX_HEIGHT 22
+#define CLOUD2_ALONE_BBOX_HEIGHT 23
 
 class CCloud2 : public CGameObject {
 public:

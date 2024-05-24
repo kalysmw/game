@@ -13,6 +13,7 @@
 #include "Brush.h"
 #include "Orange.h"
 #include "Blue.h"
+#include "Green.h"
 #include "Cloud2.h"
 #include "SampleKeyEventHandler.h"
 
@@ -127,6 +128,10 @@ void CPlayScene::_ParseSection_OBJECTS(string line)
 
 	case OBJECT_TYPE_BLUE:
 		obj = new CBlue(x, y);
+		break;
+
+	case OBJECT_TYPE_GREEN:
+		obj = new CGreen(x, y);
 		break;
 
 	case OBJECT_TYPE_MARIO:

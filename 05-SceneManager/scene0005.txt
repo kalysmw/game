@@ -9,6 +9,7 @@ brush.txt
 orange.txt
 cloud2.txt
 blue.txt
+green.txt
 
 #
 [OBJECTS]
@@ -37,8 +38,11 @@ blue.txt
 4	360	80
 4	380	80
 
-
-
+#BRICK
+1	190	140
+1	206	140
+1	245	95
+1	261	95
 
 #Platform
 5	20	220	15	32	40	51000	52000	53000
@@ -58,9 +62,14 @@ blue.txt
 #OrangeBox
 8	280	180
 
+#GreenBox
+11	380	180
+
+
 #highcloud
 9	155	80	250
 9	350	50	260
+
 # MARIO
 0	120	10
 
